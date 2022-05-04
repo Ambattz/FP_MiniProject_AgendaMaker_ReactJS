@@ -1,0 +1,93 @@
+
+<html>
+	<head>
+		<title>Problem Statement - Agenda Manager</title>
+		<style>
+			.screenshots {
+				height: 600px;
+				overflow-y: scroll;
+			}
+			.shotsHead {
+				color:#c0392b;
+				margin-left: 50px;
+			}
+		</style>
+	</head>
+	<body>
+<h2><span style="color:#27ae60;">Kickoffs - ReactJS - Agenda Manager</span></h2>
+
+<p>&nbsp;</p>
+
+<p>Build a react application that should manage agenda. It should helps to add agenda title and topics and view those agenda details.</p>
+
+<p>&nbsp;</p>
+
+<p>This application have buttons<b>[Click To View Agenda, Click To Add Agenda]</b> to switch between add agenda form(for adding agenda details) and view agenda(for displaying the details).</p>
+
+<h2 style="color: #2980b9;">Refer the screenshots to develop the application</h2>
+<div class="screenshots">
+	<h3 class="shotsHead">Add Agenda Initial View</h3>
+	<img src="add-agenda-initial.png" height="600px">
+	<h3 class="shotsHead">Invalid Input Validation</h3>
+	<img src="invalid-inputs-validation.png" height="600px">
+	<h3 class="shotsHead">Add Topics</h3>
+	<img src="add-topics-input.png"  height="600px">
+	<h3 class="shotsHead">Submit Agenda</h3>
+	<img src="add-agenda-submit.png" height="600px">
+	<h3 class="shotsHead">View Agenda</h3>
+	<img src="view-agenda-initial.png" height="600px">
+</div>
+
+<h3><span style="color:#2980b9;">Form Fields</span></h3>
+
+<p>&nbsp;</p>
+
+<div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;"><span style="color:#c0392b;"><em><strong>Form Fields And its Criteria</strong></em></span></div>
+
+<div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">Title: <em><strong>Validators [required</strong><strong>]</strong></em></div>
+
+<div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">Description: <strong><em>&nbsp;</em></strong><em><strong>Validators [required</strong><strong>]</strong></em><span style="color:#000000;">&nbsp; </span></div>
+
+<div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">Topic: <strong><em>&nbsp;</em></strong><em><strong>Validators [required</strong><strong>]</strong></em><span style="color:#000000;">&nbsp; </span></div>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li>
+		<p>Check for empty inputs and show error message if empty value is given in inputs - the validation messages are provided in the template</p>
+	</li>
+	<li>
+		<p>The form have <span style="color:#8e44ad;"><strong>Add Topic</strong></span> and <span style="color:#8e44ad;"><strong>Submit Agenda</strong></span> button. </p>
+	</li>
+	<li>
+		<p><span style="color:#8e44ad;"><strong>Add Topic</strong></span> button should be used for add the agenda topics as much as need to add. After all the needed topics added and title and description inputs are given, <strong>Submit Agenda</strong> button should be used for adding the agenda details.</p>
+	</li>
+	<li>
+		<p><strong>Add button</strong> should be disabled if the input field(Topic) is empty. <strong>Submit Agenda</strong> button should be disabled if the Title or Description is empty or no topics added yet.</p>
+	</li>
+	<li>
+		<p>An error message should shown(present in the template - No Topics Added) if no topics added yet</p>
+	</li>
+	<li>
+		<p>On changing the view, the added details should shown.</p>
+	</li>
+</ul>
+<p>&nbsp;</p>
+			
+			<p><span style="color:#d35400;"><span style="font-size:x-large;"><strong>Instructions to install and run front-end</strong></span></span></p>
+			<ul>
+				<li>If you want to install project(ReactJS) dependecies, run <strong><i>sh install.sh</i></strong> in terminal. <strong>Do not install any additional dependencies, it may affect your scoring.</strong> </li>
+				<li>If you want to run your application, run <strong><i>sh run.sh</i></strong> in terminal (you can view your application on port 8000 in browser)</li>
+				<li>To run test cases, run <strong><i>sh test.sh</i></strong> in terminal 
+			</ul>
+		<p>&nbsp;</p>
+		
+		<p><span style="color:#d35400;"><span style="font-size:x-large;"><strong>Note:</strong></span></span></p>
+		
+		<ul>
+					<li>Follow the instructions given in the code to complete the challenge.</li>
+					<li>Don't modify ids or classes or tags as it is required for testing.</li>
+					<li>There should be default data displayed for agenda details which present in the code as it is required for testing.</li>
+		</ul>
+</body>	
+</html>	
