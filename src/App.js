@@ -2,10 +2,9 @@
 import React, { Component } from "react";
 
 class App extends Component {
-
-  /**
- * keep this following data as default data in agenda details as it is required for testing
- * [
+  state = {
+    // your data goes here
+    agenda: [
       {
         title: "Angular",
         description: "Some description about the angular",
@@ -17,11 +16,6 @@ class App extends Component {
         topics: ["Introduction", "Javascript", "Why Vue?", "Vue Bindings", "Component Interaction"]
       },
     ],
- */
-
-  state = {
-    // your data goes here
-    agenda: [],
     inputs: {},
     topics: [],
 
