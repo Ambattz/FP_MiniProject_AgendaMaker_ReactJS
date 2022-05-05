@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="3" errors="0" time="6.902">
+  <testsuite name="undefined" errors="0" failures="3" skipped="0" timestamp="2022-05-04T20:01:58" time="5.595" tests="10">
+    <testcase classname=" should display initial UI" name=" should display initial UI" time="0.156">
+    </testcase>
+    <testcase classname=" form validation - invalid" name=" form validation - invalid" time="0.223">
+    </testcase>
+    <testcase classname=" form validation - valid add btn" name=" form validation - valid add btn" time="0.117">
+    </testcase>
+    <testcase classname=" form validation - invalid submit" name=" form validation - invalid submit" time="0.136">
+    </testcase>
+    <testcase classname=" form validation - valid submit" name=" form validation - valid submit" time="0.155">
+    </testcase>
+    <testcase classname=" toggle view check" name=" toggle view check" time="0.068">
+    </testcase>
+    <testcase classname=" check form inputs" name=" check form inputs" time="0.198">
+    </testcase>
+    <testcase classname=" check view agenda" name=" check view agenda" time="0.03">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Angular&quot;
+Received: &quot;&quot;
+    at Object.&lt;anonymous&gt; (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\src\App.test.js:152:45)
+    at _callCircusTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:212:5)
+    at _runTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:149:3)
+    at _runTestsForDescribeBlock (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:63:9)
+    at run (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:176:21)
+    at jestAdapter (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:109:19)
+    at runTestInternal (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-runner\build\runTest.js:380:16)
+    at runTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-runner\build\runTest.js:472:34)</failure>
+    </testcase>
+    <testcase classname=" add and view the agenda" name=" add and view the agenda" time="0.235">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;querySelector&apos;)
+    at getText (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\src\App.test.js:139:14)
+    at Object.&lt;anonymous&gt; (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\src\App.test.js:179:10)
+    at _callCircusTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:212:5)
+    at _runTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:149:3)
+    at _runTestsForDescribeBlock (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:63:9)
+    at run (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:176:21)
+    at jestAdapter (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:109:19)
+    at runTestInternal (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-runner\build\runTest.js:380:16)
+    at runTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-runner\build\runTest.js:472:34)</failure>
+    </testcase>
+    <testcase classname=" add and view the agenda - 2" name=" add and view the agenda - 2" time="0.48">
+      <failure>TypeError: Cannot read properties of undefined (reading &apos;querySelectorAll&apos;)
+    at Object.&lt;anonymous&gt; (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\src\App.test.js:206:22)
+    at _callCircusTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:212:5)
+    at _runTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:149:3)
+    at _runTestsForDescribeBlock (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:63:9)
+    at run (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:176:21)
+    at jestAdapter (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:109:19)
+    at runTestInternal (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-runner\build\runTest.js:380:16)
+    at runTest (D:\Study\TWD Bootcamp 2022\React\FP_ReactChallenge\Wings1_ReactJS\node_modules\jest-runner\build\runTest.js:472:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
