@@ -18,7 +18,6 @@ In this challenge, you will be creating a front-end application where user can a
 02 Do this steps before pasting code after Run Tests to check the test cases passed
 
 ## PRE-REQUISITES
-
 * MongoDB
 * Express
 * ReactJS
