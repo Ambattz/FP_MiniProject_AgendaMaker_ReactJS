@@ -20,8 +20,9 @@ In this challenge, you will be creating a front-end application where user can a
 * ReactJS
 
 ## SCREENSHOTS
-![2022-05-05 (8)](https://user-images.githubusercontent.com/69767685/166941968-334c4eba-a406-4585-b1ac-cd458381a3a0.png)
-![2022-05-05 (9)](https://user-images.githubusercontent.com/69767685/166942010-d1592021-6aa2-4416-b76d-9a98384c6f03.png)
+ ,         | .
+:-------------------------:|:-------------------------:
+![2022-05-05 (8)](https://user-images.githubusercontent.com/69767685/166941968-334c4eba-a406-4585-b1ac-cd458381a3a0.png)|![2022-05-05 (9)](https://user-images.githubusercontent.com/69767685/166942010-d1592021-6aa2-4416-b76d-9a98384c6f03.png)
 
 ## RESULT
 ![2022-05-05 (10)](https://user-images.githubusercontent.com/69767685/166941895-8b4608ca-76f3-4d62-9308-7b26e7c14249.png)
